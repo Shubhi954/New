@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/Shubhi954/README
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[remote "New"]
+	url = https://github.com/Shubhi954/New.git
+	fetch = +refs/heads/*:refs/remotes/New/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
